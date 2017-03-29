@@ -52,7 +52,7 @@ function style() {
 
   css.add('.splash', {
     'width': iframe ? '25rem' : '30rem',
-    'margin': iframe ? '0' : '20rem auto',
+    'margin': iframe ? '0' : '4rem auto',
     'text-align': 'center',
     'font-family': '"Helvetica Neue", Helvetica, Arial'
   });
@@ -299,7 +299,7 @@ function style() {
     css.add('footer', {
       'color': '#D6D6D6',
       'font-size': '1.1rem',
-      'margin': '20rem auto 0',
+      'margin': '1rem auto 0',
       'width': '30rem',
       'text-align': 'center'
     });
